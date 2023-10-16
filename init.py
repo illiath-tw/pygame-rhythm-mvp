@@ -8,7 +8,7 @@ def init():
   
     # displaying a window of height 
     # 500 and width 400 
-    pygame.display.set_mode((640, 480))
+    pygame.display.set_mode((1920, 1080))
 
     # set the title
 

@@ -9,4 +9,4 @@ def exit():
     # insert useful comment here
     pygame.quit()
     # throw a 0 to show that it worked properly
-    sys.exit(0)
+    sys.exit()
