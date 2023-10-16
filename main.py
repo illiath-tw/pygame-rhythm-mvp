@@ -6,23 +6,19 @@ from exit import exit
 from init import init
 
 # initialize the window
-init()
+def main(): 
+    init()
 
-# creating a bool value which checks 
-# if game is running 
-running = True
-  
-# keep game running till running is true 
-while running: 
-      
-    # Check for event if user has pushed 
-    # any event in queue 
-    for event in pygame.event.get(): 
-          
-        # if event is of type quit then  
-        # set running bool to false 
-        if event.type == pygame.QUIT: 
-            running = False
+    # do other things
+    print("working!")
 
-#Game's over. Quitting!
-exit()
+def inputchecker():
+    pygame.event.get(): 
+
+    #if it is a quit action, run exit()
+    if event.type == pygame.QUIT:
+        exit(0)
+#def gameloop():
+
+
+main()
