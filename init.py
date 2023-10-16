@@ -8,3 +8,7 @@ def init():
     # displaying a window of height 
     # 500 and width 400 
     pygame.display.set_mode((640, 480))
+
+    # set the title
+
+    pygame.display.set_caption('Untitled Rhythm Game')
